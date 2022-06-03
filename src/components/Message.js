@@ -1,14 +1,18 @@
 import React from 'react';
 import './Message.css';
 
-const Message = () => {
+const Message = ({msg}) => {
   return (
     <>
         <div id="error-div">
-           <h2>An error happened!</h2>  
+           <h3>{msg}</h3>  
         </div>
     </>
   )
 }
+
+Message.defaultProps={
+  msg: "An error happened!"
+};
 
 export default Message;
