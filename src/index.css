@@ -11,8 +11,9 @@ h1 {
 }
 
 h2 {
-  color: coral;
+  /* color: coral; */
   text-align: center;
+  color: #dc3545
 }
 
 div {
