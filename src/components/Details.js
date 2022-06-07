@@ -9,13 +9,13 @@ const Details = ({ find, lyric, biography }) => {
 
   //else
   return (
-    <>
+    <>    
       {biography.artists ? <Artist artist={biography.artists[0]}/> : <Message msg={`"${find.artist}" not found :(`} />}
       {lyric.error || lyric.name === "AbortError" ? (
         <Message msg={`Lyrics of "${find.song}" not found :(`} />
       ) : (
         <Lyric title={find.song} lyrics={lyric.lyrics} />
-      )}
+      )}     
     </>
   );
 };

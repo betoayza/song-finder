@@ -2,6 +2,14 @@ blockquote {
     color: coral;
 }
 
-h3 {
-    color: greenyellow;
+#lyrics-div {
+    margin-top: 3rem;
+    display: grid;
+    text-align: center;
+}
+
+#lyrics-div > h3 {
+    font-size: 20px; 
+    color: greenyellow;  
+    margin-bottom: 2rem; 
 }

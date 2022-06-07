@@ -3,10 +3,10 @@ import './Lyric.css';
 
 const Lyric = ({title, lyrics}) => {
   return (
-    <section>
+    <div id="lyrics-div">
         <h3>{title}</h3>
         <blockquote style={{whiteSpace: 'pre-wrap'}}>{lyrics}</blockquote>
-    </section>
+    </div>
   )
 }
 

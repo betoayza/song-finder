@@ -18,8 +18,17 @@ h2 {
 
 div {
   margin: 0 auto; 
-  border: solid 2px;
+  /* border: solid 2px; */
 } 
+
+img {
+  /* responsive image */
+  max-width: 100%;
+  height: auto;
+  /*margin*/
+  margin-bottom: 1rem;
+
+}
 
 #main-form {
   align-items: center;   
