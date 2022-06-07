@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/song-finder/static/css/main.3a9f78ae.css",
+    "main.js": "/song-finder/static/js/main.9f53e0ca.js",
+    "static/js/787.43bc42d4.chunk.js": "/song-finder/static/js/787.43bc42d4.chunk.js",
+    "index.html": "/song-finder/index.html",
+    "main.3a9f78ae.css.map": "/song-finder/static/css/main.3a9f78ae.css.map",
+    "main.9f53e0ca.js.map": "/song-finder/static/js/main.9f53e0ca.js.map",
+    "787.43bc42d4.chunk.js.map": "/song-finder/static/js/787.43bc42d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a9f78ae.css",
+    "static/js/main.9f53e0ca.js"
+  ]
+}
