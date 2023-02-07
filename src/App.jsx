@@ -1,14 +1,12 @@
-import React from 'react'
-import SongFinder from './components/SongFinder'
-
+import React from "react";
+import SongFinder from "./components/container/SongFinder";
 
 function App() {
-
   return (
     <div className="App">
       <SongFinder />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
