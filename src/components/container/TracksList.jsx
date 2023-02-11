@@ -2,7 +2,7 @@ import React from "react";
 import { Track } from "../pure/Track";
 
 export const TracksList = ({ tracksList }) => {
-  console.log(tracksList);
+  // console.log(tracksList);
 
   return (
     <div className={"row row-cols-auto"}>

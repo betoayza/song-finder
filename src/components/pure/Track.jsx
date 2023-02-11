@@ -3,7 +3,7 @@ import { Modal } from "./Modal";
 
 export const Track = ({ track }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  console.log(track);
+  // console.log(track);
 
   const handleClose = () => {
     setIsModalOpen(false);

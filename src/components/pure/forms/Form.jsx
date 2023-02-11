@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 const initialForm = {
-  // artist: "",
   song: "",
 };
 
