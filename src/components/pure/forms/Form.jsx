@@ -38,7 +38,7 @@ export const Form = ({ handleFind }) => {
           type="text"
           className="form-control mb-2 form-row"
           name="song"
-          placeholder="Song..."
+          placeholder="Song or artist..."
           onChange={handleChange}
           value={form.song}
           style={{ color: "#9400d3", fontStyle: "italic", fontWeight: "bold" }}

@@ -18,7 +18,7 @@ export const Track = ({ track }) => {
         </p>
         <img
           src={track.artist.picture}
-          class="img-fluid rounded-top img-thumbnail"
+          className="img-fluid rounded-top img-thumbnail"
           alt="Artist"
         />
         <a href={track.artist.link} style={{ color: "cyan" }}>
@@ -28,7 +28,7 @@ export const Track = ({ track }) => {
           Track site
         </a>
         <button className={"btn btn-outline-danger mt-2"} onClick={handleClose}>
-          close
+          Close
         </button>
       </div>
     </Modal>
@@ -39,10 +39,16 @@ export const Track = ({ track }) => {
         className="img-fluid rounded-top img-thumbnail"
         alt="Album"
         onClick={() => setIsModalOpen(true)}
+        style={{ cursor: "pointer" }}
       />
       <p>
         <span style={{ color: "yellowgreen", fontWeight: "bold" }}>
           {track.title}
+        </span>
+        <br />
+        <span style={{ color: "white", fontStyle: "italic" }}>
+          {" "}
+          by {track.artist.name}
         </span>
       </p>
     </div>
