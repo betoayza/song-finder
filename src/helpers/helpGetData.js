@@ -18,7 +18,7 @@ export const helpGetData = async (term) => {
   };
 
   await axios.get(url, options).then((res) => {
-    console.log(res.data);
+    console.log(res);
     result = res.data;
   });
 
