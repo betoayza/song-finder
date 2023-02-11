@@ -5,7 +5,7 @@ export const helpGetData = async (term) => {
 
   let result;
 
-  const url = `http://localhost:1234/api/${term}`;
+  const url = `${import.meta.env.VITE_API}/api/${term}`;
   const options = {
     headers: {
       // "Access-Control-Allow-Origin": "*",
