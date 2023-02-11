@@ -22,10 +22,10 @@ export const Track = ({ track }) => {
           alt="Artist"
         />
         <a href={track.artist.link} style={{ color: "cyan" }}>
-          Artist page
+          Artist site
         </a>
         <a href={track.link} style={{ color: "cyan" }}>
-          Track page
+          Track site
         </a>
         <button className={"btn btn-outline-danger mt-2"} onClick={handleClose}>
           close
@@ -36,7 +36,7 @@ export const Track = ({ track }) => {
     <div className={"text-center text-break"}>
       <img
         src={track.album.cover}
-        class="img-fluid rounded-top img-thumbnail"
+        className="img-fluid rounded-top img-thumbnail"
         alt="Album"
         onClick={() => setIsModalOpen(true)}
       />

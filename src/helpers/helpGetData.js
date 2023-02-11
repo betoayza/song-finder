@@ -1,24 +1,26 @@
 import axios from "axios";
 
 export const helpGetData = async (term) => {
+  console.log(term);
 
   let result;
 
-  console.log(term);
-  const url = `/api/search/track?q=${term}`;
+  const url = `http://localhost:1234/api/${term}`;
   const options = {
     headers: {
       // "Access-Control-Allow-Origin": "*",
-      // 'Content-Type': 'application/json',
-      response_type: import.meta.env.VITE_ACCESS_TOKEN,
+      // "Access-Control-Allow-Headers": "*",
+      // "Access-Control-Allow-Credentials": true,
+      // "Content-Type": "application/json",
+      // response_type: import.meta.env.VITE_ACCESS_TOKEN,
     },
-    timeout: 3000,
+    timeout: 5000,
   };
-  // axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
+
   await axios.get(url, options).then((res) => {
     console.log(res.data);
-    result = res.data
+    result = res.data;
   });
-  
+
   return result;
 };
